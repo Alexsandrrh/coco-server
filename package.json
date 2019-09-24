@@ -1,0 +1,22 @@
+{
+  "name": "coco-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "git@github.com:Alexsandrrh/coco-server.git",
+  "author": "Alexsandrrh <sadovspbsasha@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env PORT=9000 nodemon server.js",
+    "start": "cross-env PORT=80 node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.0",
+    "nodemon": "^1.19.2"
+  }
+}
